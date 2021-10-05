@@ -1,0 +1,114 @@
+*{margin: 0; padding: 0; font-family: 'Ubuntu', sans-serif;}
+
+
+body{
+	overflow: hidden;
+}
+.logo{
+    margin: 122px 0 0;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+	}
+.logo img{
+	width: 90px;
+
+}
+.box{border: 1px solid gray;
+	border-radius: 3px;
+	width: 290px;
+	padding: 8px;
+	font-size: 17px;
+}
+
+
+button{ margin: 20px;
+width: 90px; 
+border: 2px solid #4681e8;
+border-radius: 30px;
+background-color: #4681e8;
+cursor: pointer;
+}
+
+
+.heading{
+	padding: 30px;
+}
+.value{
+	padding: 10px;
+	color: white;
+	font-size: 17px;
+	text-transform: capitalize;
+}
+.checkbox{
+	width: 100%;
+  display: flex;
+  justify-content: center;
+   cursor: pointer;
+   
+
+} 
+.checkbox input{
+	width: 45px;
+	height: 17px;
+}
+
+footer{margin: 67px 0;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	
+}
+
+
+@media only screen and (max-width: 980px ){
+
+
+.logo{
+     margin: 600px 0 0;
+}	
+.logo img{
+           width: 206px;	
+}
+.heading{
+	padding: 45px;
+	font-size: 30px;
+	font-weight: lighter;
+}
+.boxex{
+	margin:2px;
+}
+.box{
+	width: 560px;
+	padding: 25px;
+	font-size: 44px;
+	
+}
+button{
+	margin: 20px;
+	width: 220px;
+}
+.value{
+	font-size: 40px;
+}
+.checkbox input{
+	width: 90px;
+	height: 50px
+}
+
+.checkbox{
+	margin: 100px 0 0;
+}
+.checkbox p{
+	font-size: 40px;
+	font-weight: 100;
+}
+footer{
+	margin: 343px 0;
+	font-size: 40px;
+	text-align: center;
+   align-content: center;
+   padding: 0px;
+}
+}
