@@ -63,7 +63,7 @@ footer{margin: 67px 0;
 
 
 @media only screen and (max-width: 980px ){
-
+	body{overflow:auto;}
 
 .logo{
      margin: 600px 0 0;
